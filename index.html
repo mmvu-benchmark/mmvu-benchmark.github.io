@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MMVU</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://kit.fontawesome.com/f8ddf9854a.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="description"
+          content="Measuring Expert-Level Multi-Discipline Video Understanding">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> MMVU: Measuring Expert-Level Multi-Discipline Video Understanding</title>
+
+    <link rel="icon" href="./static/images/mmvu_icon.jpg">
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <script src="https://kit.fontawesome.com/fff5b27ec1.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/eaf1856e6f.js" crossorigin="anonymous"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+  </head>
+  <body>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              More Research
+            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="https://docmath-eval.github.io/">
+                DocMath-Eval
+              </a>
+              <a class="navbar-item" href="https://financemath-acl2024.github.io/">
+                FinanceMath
+              </a>
+              <a class="navbar-item" href="https://mmworld-bench.github.io/">
+                MMWorld
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title is-bold">
+                <img src="static/images/mmvu_icon.jpg" style="width:1em;vertical-align: middle" alt="Logo"/>
+                <span class="mmvu" style="vertical-align: middle">MMVU</span>
+              </h1>
+              <h2 class="subtitle is-3 publication-subtitle">
+                Measuring Expert-Level Multi-Discipline Video Understanding
+              </h2>
+              <div class="is-size-5 publication-authors">
+                <span class="author-block">
+                  Yilun Zhao*,
+                </span>
+                <span class="author-block">
+                  Lujing Xie*,
+                </span>
+                <span class="author-block">
+                  Haowei Zhang*,
+                </span>
+                <br>
+                <span class="author-block">Yitao Long,</span>
+                <span class="author-block">Guo Gan,</span>
+                <span class="author-block">Zhiyuan Hu,</span>
+                <span class="author-block">Tongyan Hu,</span>
+                <span class="author-block">Weiyuan Chen,</span>
+                <span class="author-block">Junyang Song,</span>
+                <span class="author-block">Zhijian Xu,</span>
+                <span class="author-block">Chengye Wang,</span>
+                <span class="author-block">Weifeng Pan,</span>
+                <span class="author-block">Chuhan Li,</span>
+                <span class="author-block">Ziyao Shangguan,</span>
+                <span class="author-block">Xiangru Tang,</span>
+                <span class="author-block">Zhenwen Liang,</span>
+                <span class="author-block">Yixin Liu,</span>
+                <br>
+                <span class="author-block">
+                  Chen Zhao,
+                </span>
+                <span class="author-block">
+                  Arman Cohan
+                </span>
+              </div>
+
+              <br>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"><b>Yale NLP MMVU Team</b></span>
+              </div>
+
+              <br>
+              <div class="is-size-5 publication-authors">
+                <span class="author-block">*Core Contributors</span><br>
+              </div>
+
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <span class="link-block">
+                    <a href="MMVU_arxiv.pdf" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>arXiv</span>
+                    </a>
+                  </span>
+                  <span class="link-block">
+                    <a href="https://huggingface.co/datasets/yale-nlp/MMVU" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon" style="font-size:18px">🤗</span>
+                      <span>MMVU</span>
+                    </a>
+                  </span>
+                  <span class="link-block">
+                    <a href="https://github.com/yale-nlp/MMVU" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Code</span>
+                    </a>
+                  </span>
+                  <span class="link-block">
+                    <a href="#leaderboard" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon has-text-white">
+                        <i class="fa-solid fa-trophy"></i>
+                      </span>
+                      <span>Leaderboard</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero teaser">
+      <div class="container is-max-desktop has-text-centered">
+        <img src="static/images/overview.jpg" alt="geometric reasoning">
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container" style="margin-bottom: 2vh;">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Introduction</h2>
+            <div class="content has-text-justified">
+              <p>
+                We introduce <b>MMVU</b>, a comprehensive expert-level, multi-discipline benchmark for evaluating foundation models in video understanding. MMVU includes <b>3,000</b> expert-annotated questions covering <b>27</b> subjects across four core disciplines: Science, Healthcare, Humanities & Social Sciences, and Engineering. Compared to prior benchmarks, MMVU features four key advancements: 
+                1) <b>Breadth of Domain Knowledge</b>: We employ a textbook-guided QA annotation pipeline to ensure the wide coverage of domain knowledge within each subject;
+                2) <b>Depth of Expert-level Reasoning</b>: Each example requires models to comprehend specialized-domain video context, applying expert knowledge and reasoning;
+                3) <b>True Visual Understanding</b>: We confirm that video comprehension is required for accurate answering each example;
+                4) <b>Support of Fine-grained Evaluation</b>: We provide expert-annotated solutions and the requisite knowledge for each example, enabling more comprehensive analysis for future research. 
+                Through in-depth error analysis and case studies, we offer actionable insights to guide future advancements.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--/ Abstract. -->
+      </div>
+    </section>
+
+    <!-- DATASET SECTION -->
+    <section class="section">
+      <div class="container">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Comparison with Existing Benchmarks</h2>
+            <div class="content has-text-justified">
+              <div class="content has-text-centered">
+                <img src="static/images/comparison.png" alt="algebraic reasoning" class="center">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESULTS SECTION -->
+
+    <section class="section">
+      <div class="container">
+        <!-------------------------------------------------------------------- RESULTS SECTION -------------------------------------------------------------------->
+        <div class="columns is-centered m-6">
+          <div class="column is-full has-text-centered content">
+            <h2 class="title is-3" id="leaderboard">Leaderboard</h2>
+            <div class="content has-text-justified">
+              <p>
+                Accuracy of evaluated foundation models on the MMVU validation and test sets using CoT prompts.
+                Model performance is ranked based on overall results on the test set.
+                ∗: For o1, as the API access for its multimodal version has not been granted, we randomly sampled 100 examples from the validation set and 200 examples (50 for each core discipline) from the test set.
+                The model's performance was manually evaluated on Jan 10, 2025, using CoT prompts on ChatGPT platform.
+              </p>
+            </div>
+            <div class="model-labels-container">
+              <span class="leaderboard-label human_expert">Human Expert</span>
+              <span class="leaderboard-label proprietary">Proprietary</span>
+              <span class="leaderboard-label open_source">Open-Source</span>
+            </div>
+            <br>
+            <div class="leaderboard-container">
+              <div class="table-wrapper">
+                <table id="mmvu-table">
+                  <thead>
+                    <tr>
+                      <th colspan="2" class="model-cell clickable" style="text-align: center;">Model</th>
+                      <th class="val-details-cell clickable" colspan="1">MMVU (Val)</th>
+                      <th class="test-details-cell clickable" colspan="1">MMVU (Test)</th>
+                    </tr>
+                    <tr>
+                      <th class="sortable clickable" data-sort="string">Name</th>
+                      <th class="sortable clickable" data-sort="date">Date</th>
+                      <th class="sortable clickable val-overall" data-sort="number">Overall</th>
+                      <th class="sortable clickable test-overall" data-sort="number">Overall</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- Table body will be populated dynamically -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+    <!-- Bibtex -->
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <h2 class="title is-3 has-text-centered">BibTeX</h2>
+        <pre><code>
+          
+    </code></pre>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is adapted from <a href="https://mmmu-benchmark.github.io/">MMMU</a>, <a href="https://nerfies.github.io/">Nerfies</a> and <a href="https://mathvista.github.io/">MathVista</a>, licensed under a <a rel="license"
+                                                  href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
