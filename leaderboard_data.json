@@ -54,7 +54,8 @@
         "size": "-",
         "date": "2024-12",
         "type": "proprietary",
-        "link": "https://deepmind.google/technologies/gemini/flash-thinking/"
+        "link": "https://deepmind.google/technologies/gemini/flash-thinking/",
+        "frame": "32 frames"
       },
       "validation": {
         "overall": "69.1"
@@ -69,7 +70,8 @@
         "size": "-",
         "date": "2024-08",
         "type": "proprietary",
-        "link": "https://openai.com/index/hello-gpt-4o/"
+        "link": "https://openai.com/index/hello-gpt-4o/",
+        "frame": "32 frames"
       },
       "validation": {
         "overall": "67.4"
@@ -84,7 +86,8 @@
         "size": "-",
         "date": "2024-12",
         "type": "proprietary",
-        "link": "https://deepmind.google/technologies/gemini/flash/"
+        "link": "https://deepmind.google/technologies/gemini/flash/",
+        "frame": "32 frames"
       },
       "validation": {
         "overall": "65.9"
@@ -99,7 +102,8 @@
         "size": "-",
         "date": "2024-09",
         "type": "proprietary",
-        "link": "https://deepmind.google/technologies/gemini/pro/"
+        "link": "https://deepmind.google/technologies/gemini/pro/",
+        "frame": "32 frames"
       },
       "validation": {
         "overall": "65.4"
@@ -114,7 +118,8 @@
         "size": "-",
         "date": "2024-10",
         "type": "proprietary",
-        "link": "https://www.anthropic.com/news/claude-3-5-sonnet"
+        "link": "https://www.anthropic.com/news/claude-3-5-sonnet",
+        "frame": "32 frames"
       },
       "validation": {
         "overall": "65.2"
@@ -129,7 +134,8 @@
         "size": "-",
         "date": "2024-12",
         "type": "proprietary",
-        "link": "https://x.ai/blog/grok-2"
+        "link": "https://x.ai/blog/grok-2",
+        "frame": "32 frames"
       },
       "validation": {
         "overall": "62.7"
@@ -144,7 +150,8 @@
         "size": "-",
         "date": "2024-07",
         "type": "proprietary",
-        "link": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"
+        "link": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+        "frame": "32 frames"
       },
       "validation": {
         "overall": "61.6"
@@ -159,7 +166,8 @@
         "size": "-",
         "date": "2024-09",
         "type": "proprietary",
-        "link": "https://deepmind.google/technologies/gemini/flash/"
+        "link": "https://deepmind.google/technologies/gemini/flash/",
+        "frame": "32 frames"
       },
       "validation": {
         "overall": "58.8"
@@ -174,7 +182,8 @@
         "size": "-",
         "date": "2025-01",
         "type": "proprietary",
-        "link": "https://open.bigmodel.cn/dev/api/normal-model/glm-4v"
+        "link": "https://open.bigmodel.cn/dev/api/normal-model/glm-4v",
+        "frame": "4 frames"
       },
       "validation": {
         "overall": "56.2"
@@ -189,7 +198,8 @@
         "size": "-",
         "date": "2024-09",
         "type": "open_source",
-        "link": "https://huggingface.co/Qwen/Qwen2-VL-72B"
+        "link": "https://huggingface.co/Qwen/Qwen2-VL-72B",
+        "frame": "1 fps"
       },
       "validation": {
         "overall": "53.0"
@@ -204,7 +214,8 @@
         "size": "-",
         "date": "2024-12",
         "type": "open_source",
-        "link": "https://huggingface.co/deepseek-ai/deepseek-vl2"
+        "link": "https://huggingface.co/deepseek-ai/deepseek-vl2",
+        "frame": "2 frames"
       },
       "validation": {
         "overall": "52.1"
@@ -219,7 +230,8 @@
         "size": "-",
         "date": "2024-11",
         "type": "open_source",
-        "link": "https://huggingface.co/OpenGVLab/InternVL2_5-38B"
+        "link": "https://huggingface.co/OpenGVLab/InternVL2_5-38B",
+        "frame": "4 frames"
       },
       "validation": {
         "overall": "50.5"
@@ -234,7 +246,8 @@
         "size": "-",
         "date": "2024-11",
         "type": "open_source",
-        "link": "https://huggingface.co/rhymes-ai/Aria"
+        "link": "https://huggingface.co/rhymes-ai/Aria",
+        "frame": "8 frames"
       },
       "validation": {
         "overall": "49.3"
@@ -249,7 +262,8 @@
         "size": "-",
         "date": "2024-09",
         "type": "open_source",
-        "link": "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision"
+        "link": "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision",
+        "frame": "8 frames"
       },
       "validation": {
         "overall": "47.1"
@@ -264,7 +278,8 @@
         "size": "-",
         "date": "2024-12",
         "type": "open_source",
-        "link": "https://huggingface.co/deepseek-ai/deepseek-vl2-small"
+        "link": "https://huggingface.co/deepseek-ai/deepseek-vl2-small",
+        "frame": "2 frames"
       },
       "validation": {
         "overall": "46.9"
@@ -279,7 +294,8 @@
         "size": "-",
         "date": "2024-08",
         "type": "open_source",
-        "link": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct"
+        "link": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct",
+        "frame": "1 fps"
       },
       "validation": {
         "overall": "42.1"
@@ -294,7 +310,8 @@
         "size": "-",
         "date": "2024-11",
         "type": "open_source",
-        "link": "https://huggingface.co/OpenGVLab/InternVL2_5-8B"
+        "link": "https://huggingface.co/OpenGVLab/InternVL2_5-8B",
+        "frame": "4 frames"
       },
       "validation": {
         "overall": "41.1"
@@ -309,7 +326,8 @@
         "size": "-",
         "date": "2024-10",
         "type": "open_source",
-        "link": "https://huggingface.co/DAMO-NLP-SG/VideoLLaMA2.1-7B-16F"
+        "link": "https://huggingface.co/DAMO-NLP-SG/VideoLLaMA2.1-7B-16F",
+        "frame": "1 fps"
       },
       "validation": {
         "overall": "39.5"
@@ -324,7 +342,8 @@
         "size": "-",
         "date": "2024-09",
         "type": "open_source",
-        "link": "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision"
+        "link": "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision",
+        "frame": "8 frames"
       },
       "validation": {
         "overall": "38.9"
@@ -339,7 +358,8 @@
         "size": "-",
         "date": "2024-08",
         "type": "open_source",
-        "link": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct"
+        "link": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct",
+        "frame": "16 frames"
       },
       "validation": {
         "overall": "38.1"
@@ -354,7 +374,8 @@
         "size": "-",
         "date": "2024-09",
         "type": "open_source",
-        "link": "https://huggingface.co/lmms-lab/llava-onevision-qwen2-7b-ov"
+        "link": "https://huggingface.co/lmms-lab/llava-onevision-qwen2-7b-ov",
+        "frame": "1 fps"
       },
       "validation": {
         "overall": "37.9"
@@ -369,7 +390,8 @@
         "size": "-",
         "date": "2024-08",
         "type": "open_source",
-        "link": "https://huggingface.co/Qwen/Qwen2-VL-2B"
+        "link": "https://huggingface.co/Qwen/Qwen2-VL-2B",
+        "frame": "1 fps"
       },
       "validation": {
         "overall": "36.5"
@@ -384,7 +406,8 @@
         "size": "-",
         "date": "2024-06",
         "type": "open_source",
-        "link": "https://huggingface.co/OpenGVLab/InternVL2_5-8B"
+        "link": "https://huggingface.co/OpenGVLab/InternVL2_5-8B",
+        "frame": "4 frames"
       },
       "validation": {
         "overall": "36.3"
@@ -399,7 +422,8 @@
         "size": "-",
         "date": "2024-08",
         "type": "open_source",
-        "link": "https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3"
+        "link": "https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3",
+        "frame": "4 frames"
       },
       "validation": {
         "overall": "35.3"
@@ -414,7 +438,8 @@
         "size": "-",
         "date": "2024-06",
         "type": "open_source",
-        "link": "https://huggingface.co/DAMO-NLP-SG/VideoLLaMA2-7B"
+        "link": "https://huggingface.co/DAMO-NLP-SG/VideoLLaMA2-7B",
+        "frame": "1 fps"
       },
       "validation": {
         "overall": "34.4"
@@ -429,7 +454,8 @@
         "size": "-",
         "date": "2024-12",
         "type": "open_source",
-        "link": "https://huggingface.co/deepseek-ai/deepseek-vl2-tiny"
+        "link": "https://huggingface.co/deepseek-ai/deepseek-vl2-tiny",
+        "frame": "2 frames"
       },
       "validation": {
         "overall": "33.0"
@@ -444,7 +470,8 @@
         "size": "-",
         "date": "2024-09",
         "type": "open_source",
-        "link": "https://huggingface.co/mistral-community/pixtral-12b"
+        "link": "https://huggingface.co/mistral-community/pixtral-12b",
+        "frame": "8 frames"
       },
       "validation": {
         "overall": "32.3"
@@ -459,7 +486,8 @@
         "size": "-",
         "date": "2024-06",
         "type": "open_source",
-        "link": "https://huggingface.co/lmms-lab/LLaVA-NeXT-Video-34B"
+        "link": "https://huggingface.co/lmms-lab/LLaVA-NeXT-Video-34B",
+        "frame": "8 frames"
       },
       "validation": {
         "overall": "30.5"
@@ -474,7 +502,8 @@
         "size": "-",
         "date": "2024-08",
         "type": "open_source",
-        "link": "https://huggingface.co/OpenGVLab/InternVideo2-Chat-8B"
+        "link": "https://huggingface.co/OpenGVLab/InternVideo2-Chat-8B",
+        "frame": "1 fps"
       },
       "validation": {
         "overall": "29.9"
@@ -489,7 +518,8 @@
         "size": "-",
         "date": "2024-10",
         "type": "open_source",
-        "link": "https://huggingface.co/h2oai/h2ovl-mississippi-2b"
+        "link": "https://huggingface.co/h2oai/h2ovl-mississippi-2b",
+        "frame": "4 frames"
       },
       "validation": {
         "overall": "29.1"
@@ -504,7 +534,8 @@
         "size": "-",
         "date": "2024-06",
         "type": "open_source",
-        "link": "https://huggingface.co/lmms-lab/LLaVA-NeXT-Video-7B"
+        "link": "https://huggingface.co/lmms-lab/LLaVA-NeXT-Video-7B",
+        "frame": "16 frames"
       },
       "validation": {
         "overall": "28.6"

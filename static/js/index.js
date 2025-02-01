@@ -59,6 +59,7 @@ function loadTableData() {
             tr.innerHTML = `
               <td>${nameCell}</td>
               <td>${row.info.date}</td>
+              <td>${row.info.frame}</td>
               <td class="val-overall">${valOverall}</td>
               <td class="test-overall">${testOverall}</td>
             `;
