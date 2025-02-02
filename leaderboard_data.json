@@ -5,7 +5,8 @@
         "name": "Human Oracle",
         "size": "-",
         "date": "-",
-        "type": "human_expert"
+        "type": "human_expert",
+        "frame": "-"
       },
       "test": {
         "overall": "95.3"
@@ -16,7 +17,8 @@
         "name": "Human Open-book",
         "size": "-",
         "date": "-",
-        "type": "human_expert"
+        "type": "human_expert",
+        "frame": "-"
       },
       "test": {
         "overall": "86.8"
@@ -27,7 +29,8 @@
         "name": "Human Closed-book",
         "size": "-",
         "date": "-",
-        "type": "human_expert"
+        "type": "human_expert",
+        "frame": "-"
       },
       "test": {
         "overall": "49.7"
@@ -39,7 +42,8 @@
         "size": "-",
         "date": "2024-12",
         "type": "proprietary",
-        "link": "https://openai.com/o1/"
+        "link": "https://openai.com/o1/",
+        "frame": "32 frames"
       },
       "validation": {
         "overall": "79.0"
